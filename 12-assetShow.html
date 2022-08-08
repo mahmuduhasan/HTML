@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audio, Video, Doc, Map</title>
+  </head>
+  <body>
+    <!--Audio-->
+    <audio controls>
+      <source src="./asset/audio/1.mp3" type="audio/mpeg">
+      <!--Message if the browser doesnot upport mentioned type-->
+      Your browser does not support this audio file.
+    </audio>
+    <!--Video-->
+    <video controls height="300">
+      <source src="./asset/video/1.mp4" type="video/mp4">
+        <!--Message if the browser doesnot upport mentioned type-->
+    </video>
+    <!--YouTube Video-->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/SJkPjd8DBpE"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+    <!--Document-->
+    <!--With embed tag-->
+    <embed src="./asset/book/1.pdf" type="application/pdf" height="500" width="1000">
+    <!--With iframe tag-->
+    <iframe src="./asset/book/1.pdf" width="500" height="200"></iframe>
+    <!--With object tag-->
+    <object data="./asset/book/1.pdf" type="application/pdf"></object>
+    <!--Map-->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.530191101412!2d90.38323471498164!3d23.76412728458271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c758152b6521%3A0xc71f2d46939db1b4!2sBangabandhu%20Military%20Museum!5e0!3m2!1sen!2sbd!4v1659636575072!5m2!1sen!2sbd"
+      width="800"
+      height="600"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </body>
+</html>
